@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{9E02A1A4-F447-4A7A-9E04-7B2FD4E28EB1}</ProjectGuid>
+    <RootNamespace>백준저지</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="123더하기.cpp" />
+    <ClCompile Include="123더하기3.cpp" />
+    <ClCompile Include="123더하기5.cpp" />
+    <ClCompile Include="1로만들기.cpp" />
+    <ClCompile Include="dna해독.cpp" />
+    <ClCompile Include="DOM.cpp" />
+    <ClCompile Include="fencepainting.cpp" />
+    <ClCompile Include="goodgrass.cpp" />
+    <ClCompile Include="inheriteddisease.cpp" />
+    <ClCompile Include="jumbledcommunication.cpp" />
+    <ClCompile Include="LCS.cpp" />
+    <ClCompile Include="lobby.cpp" />
+    <ClCompile Include="n과m1.cpp" />
+    <ClCompile Include="n과m2.cpp" />
+    <ClCompile Include="pencils.cpp" />
+    <ClCompile Include="polynomial.cpp" />
+    <ClCompile Include="puyopuyo.cpp" />
+    <ClCompile Include="thetroughgame.cpp" />
+    <ClCompile Include="tree.cpp" />
+    <ClCompile Include="간식파티.cpp" />
+    <ClCompile Include="괄호제거.cpp" />
+    <ClCompile Include="구슬찾기.cpp" />
+    <ClCompile Include="그대그머가되어.cpp" />
+    <ClCompile Include="기타콘서트.cpp" />
+    <ClCompile Include="나는친구가적다.cpp" />
+    <ClCompile Include="달이차오른다가자.cpp" />
+    <ClCompile Include="러버덕을사랑하는모임.cpp" />
+    <ClCompile Include="로또.cpp" />
+    <ClCompile Include="마지막한마디.cpp" />
+    <ClCompile Include="모노미노도미노2.cpp" />
+    <ClCompile Include="문자열지옥에빠진호석.cpp" />
+    <ClCompile Include="문자열폭발.cpp" />
+    <ClCompile Include="미네랄.cpp" />
+    <ClCompile Include="미세먼지안녕.cpp" />
+    <ClCompile Include="반복.cpp" />
+    <ClCompile Include="백터매칭.cpp" />
+    <ClCompile Include="버스.cpp" />
+    <ClCompile Include="별찍기18.cpp" />
+    <ClCompile Include="별찍기23.cpp" />
+    <ClCompile Include="부분수열의합(재귀).cpp" />
+    <ClCompile Include="부분수열의합(재귀2).cpp" />
+    <ClCompile Include="비밀번호찾기.cpp" />
+    <ClCompile Include="비트수.cpp" />
+    <ClCompile Include="빙산.cpp" />
+    <ClCompile Include="alps식투표.cpp" />
+    <ClCompile Include="가르침.cpp" />
+    <ClCompile Include="색종이만들기.cpp" />
+    <ClCompile Include="개똥벌레.cpp" />
+    <ClCompile Include="동전1.cpp" />
+    <ClCompile Include="나의인생에는수학과함께.cpp" />
+    <ClCompile Include="리그오브레전설.cpp" />
+    <ClCompile Include="백조의호수.cpp" />
+    <ClCompile Include="군사이동.cpp" />
+    <ClCompile Include="네트워크연결.cpp" />
+    <ClCompile Include="도시분할계획.cpp" />
+    <ClCompile Include="공항.cpp" />
+    <ClCompile Include="NHN_2.cpp" />
+    <ClCompile Include="NHN_1.cpp" />
+    <ClCompile Include="빗물받기.cpp" />
+    <ClCompile Include="NHN_3.cpp" />
+    <ClCompile Include="곱셈.cpp" />
+    <ClCompile Include="미로만들기.cpp" />
+    <ClCompile Include="마법사상어와파이어볼.cpp" />
+    <ClCompile Include="뱀.cpp" />
+    <ClCompile Include="2048%28easy%29.cpp" />
+    <ClCompile Include="sortme.cpp" />
+    <ClCompile Include="lower_bound.cpp" />
+    <ClCompile Include="양.cpp" />
+    <ClCompile Include="스트링나머지.cpp" />
+    <ClCompile Include="주사위굴리기.cpp" />
+    <ClCompile Include="시험감독.cpp" />
+    <ClCompile Include="아기상어2.cpp" />
+    <ClCompile Include="청소년상어.cpp" />
+    <ClCompile Include="역사.cpp" />
+    <ClCompile Include="영웅이는2의거듭제곱.cpp" />
+    <ClCompile Include="우주탐사선.cpp" />
+    <ClCompile Include="제국.cpp" />
+    <ClCompile Include="치즈.cpp" />
+    <ClCompile Include="운동.cpp" />
+    <ClCompile Include="컨베이어벨트위의로봇.cpp" />
+    <ClCompile Include="케빈베이컨의6단계법칙2.cpp" />
+    <ClCompile Include="톱니바퀴.cpp" />
+    <ClCompile Include="플로이드.cpp" />
+    <ClCompile Include="최소스패닝트리.cpp" />
+    <ClCompile Include="친구비.cpp" />
+    <ClCompile Include="집합의표현.cpp" />
+    <ClCompile Include="용액.cpp" />
+    <ClCompile Include="내려가기.cpp" />
+    <ClCompile Include="케빈베이컨의6단계법칙.cpp" />
+    <ClCompile Include="쿼드트리.cpp" />
+    <ClCompile Include="다익스트라.cpp" />
+    <ClCompile Include="특정거리의도시찾기.cpp" />
+    <ClCompile Include="행성터널.cpp" />
+    <ClCompile Include="골목대장호석.cpp" />
+    <ClCompile Include="회전하는큐.cpp" />
+    <ClCompile Include="프린터큐.cpp" />
+    <ClCompile Include="n-queen.cpp" />
+    <ClCompile Include="스도쿠.cpp" />
+    <ClCompile Include="스타트와링크.cpp" />
+    <ClCompile Include="장난꾸러기영훈.cpp" />
+    <ClCompile Include="시간표짜기.cpp" />
+    <ClCompile Include="수강신청.cpp" />
+    <ClCompile Include="다음팰린드롬수.cpp" />
+    <ClCompile Include="싸이버개강총회.cpp" />
+    <ClCompile Include="아기상어.cpp" />
+    <ClCompile Include="어른상어.cpp" />
+    <ClCompile Include="에너지모으기.cpp" />
+    <ClCompile Include="연산자끼워넣기.cpp" />
+    <ClCompile Include="연산자끼워넣기2.cpp" />
+    <ClCompile Include="수들의합2.cpp" />
+    <ClCompile Include="오버워치월드컵.cpp" />
+    <ClCompile Include="이진수.cpp" />
+    <ClCompile Include="무술연습.cpp" />
+    <ClCompile Include="가로 세로 퍼즐.cpp" />
+    <ClCompile Include="가장긴증가하는부분수열.cpp" />
+    <ClCompile Include="가장긴증가하는부분수열4.cpp" />
+    <ClCompile Include="거북이.cpp" />
+    <ClCompile Include="걷기.cpp" />
+    <ClCompile Include="나는야포켓몬마스터이다솜.cpp" />
+    <ClCompile Include="동전분배.cpp" />
+    <ClCompile Include="뒤집기.cpp" />
+    <ClCompile Include="뒤집기3.cpp" />
+    <ClCompile Include="등수 구하기.cpp" />
+    <ClCompile Include="리그.cpp" />
+    <ClCompile Include="나이트의이동.cpp" />
+    <ClCompile Include="날짜계산.cpp" />
+    <ClCompile Include="단지번호붙이기.cpp" />
+    <ClCompile Include="레딕스소트.cpp" />
+    <ClCompile Include="리모컨.cpp" />
+    <ClCompile Include="바이러스.cpp" />
+    <ClCompile Include="보석상자.cpp" />
+    <ClCompile Include="addingreversednumber.cpp" />
+    <ClCompile Include="사과담기게임.cpp" />
+    <ClCompile Include="싱기한네자리숫자.cpp" />
+    <ClCompile Include="인공지능시계.cpp" />
+    <ClCompile Include="전봇대.cpp" />
+    <ClCompile Include="부분수열의합%28비트마스크%29.cpp" />
+    <ClCompile Include="사분면.cpp" />
+    <ClCompile Include="사탕게임.cpp" />
+    <ClCompile Include="상근날드.cpp" />
+    <ClCompile Include="미로탐색.cpp" />
+    <ClCompile Include="새.cpp" />
+    <ClCompile Include="섬의개수.cpp" />
+    <ClCompile Include="소스.cpp" />
+    <ClCompile Include="조화평균.cpp" />
+    <ClCompile Include="집합.cpp" />
+    <ClCompile Include="카카오1.cpp" />
+    <ClCompile Include="수이어쓰기1.cpp" />
+    <ClCompile Include="숨바꼭질.cpp" />
+    <ClCompile Include="숨바꼭질3.cpp" />
+    <ClCompile Include="숨바꼭질4.cpp" />
+    <ClCompile Include="쉬운계단수.cpp" />
+    <ClCompile Include="암호만들기.cpp" />
+    <ClCompile Include="유기농배추.cpp" />
+    <ClCompile Include="이모티콘.cpp" />
+    <ClCompile Include="정상회담.cpp" />
+    <ClCompile Include="제곱수의합.cpp" />
+    <ClCompile Include="종이조각.cpp" />
+    <ClCompile Include="친구.cpp" />
+    <ClCompile Include="테트로미노.cpp" />
+    <ClCompile Include="테트리스.cpp" />
+    <ClCompile Include="토마토.cpp" />
+    <ClCompile Include="퇴사.cpp" />
+    <ClCompile Include="외판원순회2.cpp" />
+    <ClCompile Include="이친수.cpp" />
+    <ClCompile Include="차이를최대로.cpp" />
+    <ClCompile Include="카드구매하기.cpp" />
+    <ClCompile Include="카잉달력.cpp" />
+    <ClCompile Include="왕위계승.cpp" />
+    <ClCompile Include="팀배분.cpp" />
+    <ClCompile Include="퍼즐.cpp" />
+    <ClCompile Include="펠린드롬만들기.cpp" />
+    <ClCompile Include="평범한배낭.cpp" />
+    <ClCompile Include="평행선.cpp" />
+    <ClCompile Include="폴리노미오.cpp" />
+    <ClCompile Include="피보나치수4.cpp" />
+    <ClCompile Include="효율적인해킹.cpp" />
+    <ClCompile Include="흙길보수하기.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
