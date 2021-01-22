@@ -205,6 +205,8 @@
     <ClCompile Include="2048%28easy%29.cpp" />
     <ClCompile Include="sortme.cpp" />
     <ClCompile Include="lower_bound.cpp" />
+    <ClCompile Include="물통.cpp" />
+    <ClCompile Include="소스1.cpp" />
     <ClCompile Include="양.cpp" />
     <ClCompile Include="스트링나머지.cpp" />
     <ClCompile Include="주사위굴리기.cpp" />
