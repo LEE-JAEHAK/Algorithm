@@ -558,7 +558,16 @@
     <ClCompile Include="뿌요뿌요.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="소스1.cpp">
+    <ClCompile Include="연구소2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자고르기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="보물섬.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="나무위의빗물.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
