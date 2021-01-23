@@ -206,6 +206,8 @@
     <ClCompile Include="sortme.cpp" />
     <ClCompile Include="lower_bound.cpp" />
     <ClCompile Include="물통.cpp" />
+    <ClCompile Include="나무탈출.cpp" />
+    <ClCompile Include="뿌요뿌요.cpp" />
     <ClCompile Include="소스1.cpp" />
     <ClCompile Include="양.cpp" />
     <ClCompile Include="스트링나머지.cpp" />
