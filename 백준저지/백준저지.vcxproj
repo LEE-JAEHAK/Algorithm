@@ -211,7 +211,7 @@
     <ClCompile Include="나무탈출.cpp" />
     <ClCompile Include="뿌요뿌요.cpp" />
     <ClCompile Include="나무위의빗물.cpp" />
-    <ClCompile Include="소스1.cpp" />
+    <ClCompile Include="보석상자.cpp" />
     <ClCompile Include="수묶기.cpp" />
     <ClCompile Include="숫자고르기.cpp" />
     <ClCompile Include="연구소2.cpp" />
@@ -229,6 +229,7 @@
     <ClCompile Include="운동.cpp" />
     <ClCompile Include="컨베이어벨트위의로봇.cpp" />
     <ClCompile Include="케빈베이컨의6단계법칙2.cpp" />
+    <ClCompile Include="크레인인형뽑기게임.cpp" />
     <ClCompile Include="톱니바퀴.cpp" />
     <ClCompile Include="플로이드.cpp" />
     <ClCompile Include="최소스패닝트리.cpp" />
@@ -278,7 +279,6 @@
     <ClCompile Include="레딕스소트.cpp" />
     <ClCompile Include="리모컨.cpp" />
     <ClCompile Include="바이러스.cpp" />
-    <ClCompile Include="보석상자.cpp" />
     <ClCompile Include="addingreversednumber.cpp" />
     <ClCompile Include="사과담기게임.cpp" />
     <ClCompile Include="싱기한네자리숫자.cpp" />
