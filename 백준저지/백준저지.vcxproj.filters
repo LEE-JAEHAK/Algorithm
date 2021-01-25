@@ -573,5 +573,11 @@
     <ClCompile Include="구슬탈출.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="수묶기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
