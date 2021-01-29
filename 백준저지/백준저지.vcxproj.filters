@@ -594,6 +594,9 @@
     <ClCompile Include="신규아이디추천.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="메뉴리뉴얼.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="소스1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>

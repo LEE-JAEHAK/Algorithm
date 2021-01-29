@@ -15,6 +15,24 @@ vector<string> solution(vector<string> orders, vector<int> course) {
 		int maxx = 0;
 		string maxtmp;
 		map<string, int> MAP;
+		if (i == 10) {
+			for (int k = 0; k < orders.size(); k++) {
+				if (orders[k].size() == 10) {
+					sort(orders[k].begin(), orders[k].end());
+					MAP[orders[k]]++;
+				}
+			}
+			for (auto i : MAP) {
+				if (maxx <= i.second && i.second >= 2)maxx = i.second;
+			}
+			for (auto i : MAP) {
+				if (i.second == maxx) {
+					answer.push_back(i.first);
+				}
+			}
+			sort(answer.begin(), answer.end());
+			break;
+		}
 		do {
 			string tmp;
 			for (int j = 0; j < 26; j++) {
@@ -53,6 +71,11 @@ vector<string> solution(vector<string> orders, vector<int> course) {
 }
 
 int main() {
+	//for (auto i : solution({ "ABCDEFGXYZ","ABCDEFGXYZ","ABCDEFGXYZ",
+	//	"ABCDEFGXYZ","AAAAAAAXWY", "WXA" }, { 10 })) {
+	//	cout << i << ' ';
+	//}
+	//cout << endl;
 	for (auto i : solution({ "ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH" }, { 2,3,4 })) {
 		cout << i << ' ';
 	}
