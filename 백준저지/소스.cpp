@@ -37,6 +37,13 @@
 //str.erase(unique(str.begin(), str.end()), str.end());   중복제거
 //str.erase(remove(str.begin(), str.end(), '#'), str.end());  특정문자제거
 
+//string i = "hello world man kind";  // string split 공백
+//istringstream ss(i);
+//string buf;
+//while (getline(ss, buf, ' ')) {
+//	cout << buf << endl;
+//}
+
 //#include <iostream>
 //#include <bitset>
 //using namespace std;
