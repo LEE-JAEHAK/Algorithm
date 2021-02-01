@@ -597,10 +597,13 @@
     <ClCompile Include="메뉴리뉴얼.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="소스1.cpp">
+    <ClCompile Include="순위검색.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="소스2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
