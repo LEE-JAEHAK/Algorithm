@@ -108,3 +108,25 @@
 //	recur(0);
 
 // 백트래킹 배열 - 2048(easy)  방향만 미리 정하고 배열은 처음부터 수행 
+
+
+//string formatting(string a, string b) { // 큰 수 덧셈
+//    string res;
+//    long long sum = 0;
+//
+//    while (!a.empty() || !b.empty() || sum) {
+//        if (!a.empty()) {
+//            sum += a.back() - '0';
+//            a.pop_back();
+//        }
+//        if (!b.empty()) {
+//            sum += b.back() - '0';
+//            b.pop_back();
+//        }
+//        res += (sum % 10) + '0';
+//        sum /= 10;
+//    }
+//
+//    reverse(res.begin(), res.end());
+//    return res;
+//}

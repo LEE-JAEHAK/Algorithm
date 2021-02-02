@@ -600,10 +600,16 @@
     <ClCompile Include="순위검색.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="소스2.cpp">
+    <ClCompile Include="합승택시요금.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="전깃줄%28dp%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="소스1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="광고삽입.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
