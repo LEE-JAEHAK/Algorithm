@@ -215,6 +215,8 @@
     <ClCompile Include="보석상자%28바이너리서치%29.cpp" />
     <ClCompile Include="메뉴리뉴얼.cpp" />
     <ClCompile Include="소스1.cpp" />
+    <ClCompile Include="문자열압축%2820카카오1%29.cpp" />
+    <ClCompile Include="소스2.cpp" />
     <ClCompile Include="전깃줄%28dp%29.cpp" />
     <ClCompile Include="합승택시요금.cpp" />
     <ClCompile Include="순위검색.cpp" />
