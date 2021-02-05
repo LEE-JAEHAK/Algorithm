@@ -217,7 +217,7 @@
     <ClCompile Include="소스1.cpp" />
     <ClCompile Include="문자열압축%2820카카오1%29.cpp" />
     <ClCompile Include="괄호변환%2820카카오2%29.cpp" />
-    <ClCompile Include="소스2.cpp" />
+    <ClCompile Include="기둥과보설치%2820카카오4%29.cpp" />
     <ClCompile Include="자물쇠와열쇠%2820카카오3%29.cpp" />
     <ClCompile Include="전깃줄%28dp%29.cpp" />
     <ClCompile Include="합승택시요금.cpp" />
