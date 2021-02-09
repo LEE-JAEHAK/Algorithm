@@ -220,6 +220,9 @@
     <ClCompile Include="기둥과보설치%2820카카오4%29.cpp" />
     <ClCompile Include="소스2.cpp" />
     <ClCompile Include="소스3.cpp" />
+    <ClCompile Include="coins.cpp" />
+    <ClCompile Include="소스4.cpp" />
+    <ClCompile Include="스킬체크3-1.cpp" />
     <ClCompile Include="스킬체크3-2%282%29.cpp" />
     <ClCompile Include="스킬체크3-2.cpp" />
     <ClCompile Include="스킬체크1-2.cpp" />
