@@ -645,6 +645,12 @@
     <ClCompile Include="coins.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="사탕가게.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="수강과목%28냅색%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="소스4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>

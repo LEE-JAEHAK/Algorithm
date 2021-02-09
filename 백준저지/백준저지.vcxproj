@@ -221,7 +221,9 @@
     <ClCompile Include="소스2.cpp" />
     <ClCompile Include="소스3.cpp" />
     <ClCompile Include="coins.cpp" />
+    <ClCompile Include="사탕가게.cpp" />
     <ClCompile Include="소스4.cpp" />
+    <ClCompile Include="수강과목%28냅색%29.cpp" />
     <ClCompile Include="스킬체크3-1.cpp" />
     <ClCompile Include="스킬체크3-2%282%29.cpp" />
     <ClCompile Include="스킬체크3-2.cpp" />
