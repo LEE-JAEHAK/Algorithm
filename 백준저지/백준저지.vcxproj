@@ -157,6 +157,7 @@
     <ClCompile Include="puyopuyo.cpp" />
     <ClCompile Include="thetroughgame.cpp" />
     <ClCompile Include="tree.cpp" />
+    <ClCompile Include="가사검색.cpp" />
     <ClCompile Include="간식파티.cpp" />
     <ClCompile Include="괄호제거.cpp" />
     <ClCompile Include="광고삽입.cpp" />
