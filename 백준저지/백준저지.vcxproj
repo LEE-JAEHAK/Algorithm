@@ -170,6 +170,7 @@
     <ClCompile Include="러버덕을사랑하는모임.cpp" />
     <ClCompile Include="로또.cpp" />
     <ClCompile Include="로봇 조종하기.cpp" />
+    <ClCompile Include="로봇청소기.cpp" />
     <ClCompile Include="마지막한마디.cpp" />
     <ClCompile Include="모노미노도미노2.cpp" />
     <ClCompile Include="문자열지옥에빠진호석.cpp" />
