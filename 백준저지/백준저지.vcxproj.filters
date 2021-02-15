@@ -639,9 +639,6 @@
     <ClCompile Include="스킬체크3-1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="소스3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="coins.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -664,6 +661,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="경사로.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="구간합구하기4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
