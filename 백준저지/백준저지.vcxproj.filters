@@ -672,5 +672,14 @@
     <ClCompile Include="n번째큰수.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="표절.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="두수의합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
