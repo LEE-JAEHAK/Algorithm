@@ -1,30 +1,30 @@
-//#include <iostream>
-//#include <algorithm>
-//#include <vector>
+//#include <bits/stdc++.h>
 //using namespace std;
-//
-//vector<int> v1;
-//vector<int> v2;
-//int arr[500005];
 //
 //int main() {
 //	int n, h;
 //	cin >> n >> h;
-//	v1.resize(n / 2); v2.resize(n / 2);
+//	vector<int> v1;
+//	vector<int> v2;
 //	for (int i = 0; i < n / 2; i++) {
-//		cin >> v1[i] >> v2[i];
+//		int a, b;
+//		cin >> a >> b;
+//		v1.push_back(a);
+//		v2.push_back(b);
 //	}
-//	sort(v2.begin(), v2.end());
-//	sort(v1.begin(), v1.end());
+//	sort(v1.begin(), v1.end(), greater<>());
+//	sort(v2.begin(), v2.end(), greater<>());
 //	int minn = 1e9;
+//	vector<int> v;
 //	for (int i = 1; i <= h; i++) {
-//		arr[i] = v2.size() - (lower_bound(v2.begin(), v2.end(), i) - v2.begin());
-//		arr[i] += v1.size() - (lower_bound(v1.begin(), v1.end(), h - i + 1) - v1.begin());
-//		minn = min(minn, arr[i]);
+//		int x = (upper_bound(v1.begin(), v1.end(), i, greater<>()) - v1.begin()) +
+//			(upper_bound(v2.begin(), v2.end(), h - i + 1, greater<>()) - v2.begin());
+//		v.push_back(x);
+//		minn = min(minn, x);
 //	}
 //	int cnt = 0;
-//	for (int i = 1; i <= h; i++) {
-//		if (arr[i] == minn)cnt++;
+//	for (auto i : v) {
+//		if (minn == i)cnt++;
 //	}
 //	cout << minn << ' ' << cnt;
 //}

@@ -230,6 +230,7 @@
     <ClCompile Include="n번째큰수.cpp" />
     <ClCompile Include="두수의합.cpp" />
     <ClCompile Include="rainbowbeads.cpp" />
+    <ClCompile Include="소스3.cpp" />
     <ClCompile Include="수고르기.cpp" />
     <ClCompile Include="여행경로.cpp" />
     <ClCompile Include="표절.cpp" />
