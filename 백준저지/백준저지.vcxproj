@@ -229,7 +229,9 @@
     <ClCompile Include="구간합구하기5.cpp" />
     <ClCompile Include="n번째큰수.cpp" />
     <ClCompile Include="두수의합.cpp" />
-    <ClCompile Include="소스3.cpp" />
+    <ClCompile Include="rainbowbeads.cpp" />
+    <ClCompile Include="수고르기.cpp" />
+    <ClCompile Include="여행경로.cpp" />
     <ClCompile Include="표절.cpp" />
     <ClCompile Include="양팔저울.cpp" />
     <ClCompile Include="수강과목%28냅색%29.cpp" />

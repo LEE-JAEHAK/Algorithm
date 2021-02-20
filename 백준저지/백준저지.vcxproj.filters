@@ -678,7 +678,13 @@
     <ClCompile Include="두수의합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="소스3.cpp">
+    <ClCompile Include="rainbowbeads.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="수고르기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="여행경로.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
