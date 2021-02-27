@@ -232,6 +232,7 @@
     <ClCompile Include="rainbowbeads.cpp" />
     <ClCompile Include="소스3.cpp" />
     <ClCompile Include="소스4.cpp" />
+    <ClCompile Include="최소비용구하기.cpp" />
     <ClCompile Include="수고르기.cpp" />
     <ClCompile Include="여행경로.cpp" />
     <ClCompile Include="표절.cpp" />
