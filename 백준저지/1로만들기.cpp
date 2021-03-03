@@ -1,26 +1,33 @@
-//#include <iostream>
-//#include <algorithm>
+//#include <bits/stdc++.h>
 //using namespace std;
 //
-//int dp[1000001];
+//int ans = 1e9;
+//int dp[1000005];
 //
-//int recursive(int n) {
-//	if (n == 0)return 0;
-//	else {
-//		return dp[n] = min(dp[n - 1], dp[n / 3], dp[n / 2]) + 1;
+//int DFS(int n) {
+//	if (n == 1) {
+//		return 0;
 //	}
+//	if (dp[n] > 0)return dp[n];
+//	dp[n] = DFS(n - 1) + 1;
+//	if (n % 2 == 0) {
+//		int tmp = DFS(n / 2) + 1;
+//		if (tmp < dp[n]) {
+//			dp[n] = tmp;
+//		}
+//	}
+//	if (n % 3 == 0) {
+//		int tmp = DFS(n / 3) + 1;
+//		if (tmp < dp[n]) {
+//			dp[n] = tmp;
+//		}
+//	}
+//	return dp[n];
 //}
 //
 //int main() {
-//	int N;
-//	cin >> N; // 10
-//
-//	dp[1] = 0;
-//	for (int i = 2; i <= N; i++) {
-//		dp[i] = dp[i - 1] + 1;
-//		if(i%2==0 && )
-//		dp[i] = min(dp[i - 1], dp[i / 3], dp[i / 2]) + 1;
-//	}
-//
-//	cout << dp[N];
+//	int n;
+//	cin >> n;
+//	DFS(n);
+//	cout << dp[n];
 //}

@@ -699,6 +699,9 @@
     <ClCompile Include="지하철.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="폰트.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="소스4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
