@@ -233,6 +233,7 @@
     <ClCompile Include="소스3.cpp" />
     <ClCompile Include="누구를아느냐가문제다.cpp" />
     <ClCompile Include="소스4.cpp" />
+    <ClCompile Include="지하철.cpp" />
     <ClCompile Include="최소비용구하기.cpp" />
     <ClCompile Include="수고르기.cpp" />
     <ClCompile Include="여행경로.cpp" />
