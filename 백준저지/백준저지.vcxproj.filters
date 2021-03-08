@@ -711,7 +711,13 @@
     <ClCompile Include="숫자카드2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="소스4.cpp">
+    <ClCompile Include="연결요소의개수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="로또1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="로또2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
