@@ -238,6 +238,9 @@
     <ClCompile Include="연결요소의개수.cpp" />
     <ClCompile Include="숫자카드2.cpp" />
     <ClCompile Include="수찾기.cpp" />
+    <ClCompile Include="영역구하기.cpp" />
+    <ClCompile Include="촌수계산.cpp" />
+    <ClCompile Include="탈출.cpp" />
     <ClCompile Include="폰트.cpp" />
     <ClCompile Include="지하철.cpp" />
     <ClCompile Include="최소비용구하기.cpp" />
