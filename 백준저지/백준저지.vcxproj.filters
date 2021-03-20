@@ -729,7 +729,25 @@
     <ClCompile Include="탈출.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="벽부수고이동하기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="소스4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스7.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스8.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스9.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
