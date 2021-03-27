@@ -219,6 +219,7 @@
     <ClCompile Include="나무위의빗물.cpp" />
     <ClCompile Include="보석상자%28바이너리서치%29.cpp" />
     <ClCompile Include="메뉴리뉴얼.cpp" />
+    <ClCompile Include="소수,팰린드롬.cpp" />
     <ClCompile Include="소스1.cpp" />
     <ClCompile Include="문자열압축%2820카카오1%29.cpp" />
     <ClCompile Include="괄호변환%2820카카오2%29.cpp" />
@@ -243,10 +244,12 @@
     <ClCompile Include="라인2차_1.cpp" />
     <ClCompile Include="라인2차_2.cpp" />
     <ClCompile Include="라인2차_3.cpp" />
+    <ClCompile Include="알파벳.cpp" />
     <ClCompile Include="연결요소의개수.cpp" />
     <ClCompile Include="숫자카드2.cpp" />
     <ClCompile Include="수찾기.cpp" />
     <ClCompile Include="영역구하기.cpp" />
+    <ClCompile Include="적록색약.cpp" />
     <ClCompile Include="촌수계산.cpp" />
     <ClCompile Include="탈출.cpp" />
     <ClCompile Include="폰트.cpp" />

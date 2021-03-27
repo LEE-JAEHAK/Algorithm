@@ -753,5 +753,14 @@
     <ClCompile Include="N과M.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="알파벳.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="적록색약.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소수,팰린드롬.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
