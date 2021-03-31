@@ -166,6 +166,7 @@
     <ClCompile Include="구슬탈출.cpp" />
     <ClCompile Include="그대그머가되어.cpp" />
     <ClCompile Include="기타콘서트.cpp" />
+    <ClCompile Include="꽃길.cpp" />
     <ClCompile Include="나는친구가적다.cpp" />
     <ClCompile Include="달이차오른다가자.cpp" />
     <ClCompile Include="러버덕을사랑하는모임.cpp" />
@@ -179,6 +180,7 @@
     <ClCompile Include="문자열폭발.cpp" />
     <ClCompile Include="미네랄.cpp" />
     <ClCompile Include="미세먼지안녕.cpp" />
+    <ClCompile Include="미친로봇.cpp" />
     <ClCompile Include="반복.cpp" />
     <ClCompile Include="백터매칭.cpp" />
     <ClCompile Include="버스.cpp" />
@@ -192,6 +194,7 @@
     <ClCompile Include="빙산.cpp" />
     <ClCompile Include="alps식투표.cpp" />
     <ClCompile Include="가르침.cpp" />
+    <ClCompile Include="상근이의여행.cpp" />
     <ClCompile Include="색종이만들기.cpp" />
     <ClCompile Include="개똥벌레.cpp" />
     <ClCompile Include="동전1.cpp" />
@@ -244,6 +247,7 @@
     <ClCompile Include="라인2차_1.cpp" />
     <ClCompile Include="라인2차_2.cpp" />
     <ClCompile Include="라인2차_3.cpp" />
+    <ClCompile Include="소스4.cpp" />
     <ClCompile Include="알파벳.cpp" />
     <ClCompile Include="연결요소의개수.cpp" />
     <ClCompile Include="숫자카드2.cpp" />
