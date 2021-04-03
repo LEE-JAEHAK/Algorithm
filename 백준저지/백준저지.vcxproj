@@ -176,6 +176,7 @@
     <ClCompile Include="로봇청소기.cpp" />
     <ClCompile Include="마지막한마디.cpp" />
     <ClCompile Include="모노미노도미노2.cpp" />
+    <ClCompile Include="모래성.cpp" />
     <ClCompile Include="문자열지옥에빠진호석.cpp" />
     <ClCompile Include="문자열폭발.cpp" />
     <ClCompile Include="미네랄.cpp" />
@@ -247,7 +248,8 @@
     <ClCompile Include="라인2차_1.cpp" />
     <ClCompile Include="라인2차_2.cpp" />
     <ClCompile Include="라인2차_3.cpp" />
-    <ClCompile Include="소스4.cpp" />
+    <ClCompile Include="스타트링크.cpp" />
+    <ClCompile Include="이분그래프.cpp" />
     <ClCompile Include="알파벳.cpp" />
     <ClCompile Include="연결요소의개수.cpp" />
     <ClCompile Include="숫자카드2.cpp" />
