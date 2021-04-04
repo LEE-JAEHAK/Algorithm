@@ -160,6 +160,7 @@
     <ClCompile Include="가사검색.cpp" />
     <ClCompile Include="간식파티.cpp" />
     <ClCompile Include="N과M.cpp" />
+    <ClCompile Include="경로찾기.cpp" />
     <ClCompile Include="괄호제거.cpp" />
     <ClCompile Include="광고삽입.cpp" />
     <ClCompile Include="구슬찾기.cpp" />
@@ -249,6 +250,8 @@
     <ClCompile Include="라인2차_2.cpp" />
     <ClCompile Include="라인2차_3.cpp" />
     <ClCompile Include="스타트링크.cpp" />
+    <ClCompile Include="욕심쟁이판다%28bfs실패%29.cpp" />
+    <ClCompile Include="욕심쟁이판다.cpp" />
     <ClCompile Include="이분그래프.cpp" />
     <ClCompile Include="알파벳.cpp" />
     <ClCompile Include="연결요소의개수.cpp" />
