@@ -165,6 +165,8 @@
     <ClCompile Include="광고삽입.cpp" />
     <ClCompile Include="구슬찾기.cpp" />
     <ClCompile Include="구슬탈출.cpp" />
+    <ClCompile Include="구슬탈출2.cpp" />
+    <ClCompile Include="구슬탈출3.cpp" />
     <ClCompile Include="그대그머가되어.cpp" />
     <ClCompile Include="기타콘서트.cpp" />
     <ClCompile Include="꽃길.cpp" />
