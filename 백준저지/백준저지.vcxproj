@@ -199,6 +199,7 @@
     <ClCompile Include="빙산.cpp" />
     <ClCompile Include="alps식투표.cpp" />
     <ClCompile Include="가르침.cpp" />
+    <ClCompile Include="사다리조작.cpp" />
     <ClCompile Include="상근이의여행.cpp" />
     <ClCompile Include="색종이만들기.cpp" />
     <ClCompile Include="개똥벌레.cpp" />
