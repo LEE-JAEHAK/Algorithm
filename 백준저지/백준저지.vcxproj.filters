@@ -804,5 +804,11 @@
     <ClCompile Include="사다리조작.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="드래곤커브.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="나무자르기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

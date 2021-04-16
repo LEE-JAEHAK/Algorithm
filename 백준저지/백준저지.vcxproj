@@ -172,7 +172,9 @@
     <ClCompile Include="기타콘서트.cpp" />
     <ClCompile Include="꽃길.cpp" />
     <ClCompile Include="나는친구가적다.cpp" />
+    <ClCompile Include="나무자르기.cpp" />
     <ClCompile Include="달이차오른다가자.cpp" />
+    <ClCompile Include="드래곤커브.cpp" />
     <ClCompile Include="러버덕을사랑하는모임.cpp" />
     <ClCompile Include="로또.cpp" />
     <ClCompile Include="로또2.cpp" />
