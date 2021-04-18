@@ -255,6 +255,7 @@
     <ClCompile Include="라인2차_1.cpp" />
     <ClCompile Include="라인2차_2.cpp" />
     <ClCompile Include="라인2차_3.cpp" />
+    <ClCompile Include="부분합.cpp" />
     <ClCompile Include="소스4.cpp" />
     <ClCompile Include="스타트링크.cpp" />
     <ClCompile Include="연구소.cpp" />
