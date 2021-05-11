@@ -142,6 +142,7 @@
     <ClCompile Include="123더하기3.cpp" />
     <ClCompile Include="123더하기5.cpp" />
     <ClCompile Include="1로만들기.cpp" />
+    <ClCompile Include="acmcraft.cpp" />
     <ClCompile Include="dna해독.cpp" />
     <ClCompile Include="DOM.cpp" />
     <ClCompile Include="fencepainting.cpp" />
@@ -186,6 +187,8 @@
     <ClCompile Include="로봇 조종하기.cpp" />
     <ClCompile Include="로봇청소기.cpp" />
     <ClCompile Include="마인크래프트.cpp" />
+    <ClCompile Include="문제집%28위상정렬%29.cpp" />
+    <ClCompile Include="줄세우기%28위상정렬%29.cpp" />
     <ClCompile Include="통계학.cpp" />
     <ClCompile Include="마지막한마디.cpp" />
     <ClCompile Include="모노미노도미노2.cpp" />

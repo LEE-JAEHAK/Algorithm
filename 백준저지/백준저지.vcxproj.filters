@@ -867,5 +867,14 @@
     <ClCompile Include="마인크래프트.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="줄세우기%28위상정렬%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="문제집%28위상정렬%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="acmcraft.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
