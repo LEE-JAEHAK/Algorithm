@@ -876,6 +876,15 @@
     <ClCompile Include="acmcraft.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="가장긴증가하는부분수열5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="전기줄2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="보석도둑.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="소스4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>

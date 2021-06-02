@@ -188,7 +188,10 @@
     <ClCompile Include="로봇청소기.cpp" />
     <ClCompile Include="마인크래프트.cpp" />
     <ClCompile Include="문제집%28위상정렬%29.cpp" />
+    <ClCompile Include="가장긴증가하는부분수열5.cpp" />
+    <ClCompile Include="보석도둑.cpp" />
     <ClCompile Include="소스4.cpp" />
+    <ClCompile Include="전기줄2.cpp" />
     <ClCompile Include="줄세우기%28위상정렬%29.cpp" />
     <ClCompile Include="통계학.cpp" />
     <ClCompile Include="마지막한마디.cpp" />
