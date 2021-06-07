@@ -55,7 +55,7 @@
 //int main() {
 //	for (int i = 1; i <= 9; i++) {
 //		for (int j = 1; j <= 9; j++) {
-//			cin >> arr[i][j];
+//			scanf("%1d", &arr[i][j]);
 //			if (arr[i][j] == 0) {
 //				v.push_back(make_pair(i, j));
 //			}

@@ -190,7 +190,8 @@
     <ClCompile Include="문제집%28위상정렬%29.cpp" />
     <ClCompile Include="가장긴증가하는부분수열5.cpp" />
     <ClCompile Include="보석도둑.cpp" />
-    <ClCompile Include="소스4.cpp" />
+    <ClCompile Include="스도쿠_2.cpp" />
+    <ClCompile Include="외판원순회.cpp" />
     <ClCompile Include="다각형의면적.cpp" />
     <ClCompile Include="전기줄2.cpp" />
     <ClCompile Include="줄세우기%28위상정렬%29.cpp" />

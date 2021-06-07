@@ -885,10 +885,13 @@
     <ClCompile Include="보석도둑.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="소스4.cpp">
+    <ClCompile Include="외판원순회.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="다각형의면적.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="스도쿠_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
